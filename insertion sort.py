@@ -12,7 +12,6 @@ def perform_insertion_sort(input_list):
         input_list[j + 1] = key
 
 if __name__ == "__main__":
-    # User input for an unsorted list
     user_input = input("Enter a list of numbers separated by spaces: ")
     unsorted_list = [int(x) for x in user_input.split()]
 
